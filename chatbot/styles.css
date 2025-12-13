@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Marketvegetables.jpg/500px-Marketvegetables.jpg'); */
+
+}
+
+:root{
+    --grey: #f5f5f5;
+    --blue: #268ce0;
+}
+ 
+
+
+.chat-window {
+    background-color: #f5f5f5;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Marketvegetables.jpg/500px-Marketvegetables.jpg'); */
+    border : 1px solid rgb(231, 209, 209);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:600px;
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 14px solid rgba(33, 51, 209, 0.73);
+    border-radius: 1rem;
+  
+
+  .chat{
+    /* background-color: #093535; */
+    flex: 1;
+    padding: 0 8px;
+    overflow-y: scroll;
+    border-radius: 2rem;
+    p{
+        border-radius:20px;
+        width: 80% ;
+        margin: 8px 0;
+        padding: 16px;
+    }
+
+    div.model{
+        p{
+            background-color: var(--grey);
+        
+        }
+    }
+    div.user{
+        display: flex;
+        justify-content: flex-end;
+        p{ 
+            
+            background-color: var(--blue);
+            color: white;
+            
+        }
+    }
+    div.error{
+        p{
+            font-size: 14px;
+            text-align: center;
+            background-color: red;
+            color: white;
+        }
+    }
+
+  }
+  .input-area{
+    background-color: #6df1f1;
+    border-top:1px solid rgb(231, 209, 209);
+    height: 70px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    
+    .upload-container{
+        width:20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 8px;
+        
+        .upload-button{
+          border: thick solid blue;
+          padding: 12px 16px;
+
+        }
+    }
+    
+    
+    #chatInput{
+      width: 50% ;
+      height: 40px;
+      flex:1;
+    }
+
+    input{
+        height: 40px;
+        flex:1;
+        border:none;
+        background-color: var(--grey);
+        border-radius: 20px;
+        padding-left: 20px;
+    }
+     
+    button{
+        height : 40px;
+        border:none;
+        margin-left:12px;
+        border-radius: 100%;
+        background-color: var(--blue);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+ }
+}
+
+
+.loader {
+    padding-top: 12px;
+  height: 8px;
+  aspect-ratio: 6;
+  display: flex;
+}
+.loader:before,
+.loader:after {
+  content: "";
+  flex: 1;
+  padding-left: calc(100%/6);
+  background: radial-gradient(closest-side at calc(100%/3) 50%,#000 90%,#0000) 0/75% 100% content-box;
+  animation: l20 2.5s infinite;
+}
+.loader:after {
+  --_s:-1;
+}
+@keyframes l20 {
+    0%       {transform:scale(var(--_s,1)) translate(0)    rotate(0)}
+    25%      {transform:scale(var(--_s,1)) translate(-25%) rotate(0)}
+    50%      {transform:scale(var(--_s,1)) translate(-25%) rotate(1turn)}
+    75%,100% {transform:scale(var(--_s,1)) translate(0)    rotate(1turn)}
+}

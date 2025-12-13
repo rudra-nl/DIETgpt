@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@google/genai": "^1.27.0"
+  },
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.16.0",
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

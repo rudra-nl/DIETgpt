@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 5rem;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 9rem;
+    /* background-color: rgb(37, 37, 116); */
+}
+
+.hero h6{
+   font-size: 3rem;
+   
+}
+
+.tips{
+    display: flex;
+    flex-direction: column;
+}
+.needs{
+    padding-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 245, 239);
+    border-radius: 2rem;
+}
+
+.title{
+    flex: 1;
+    height: 4rem;
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+.title h4{
+    
+    margin-left: 2rem;
+    padding-bottom: 1rem; 
+    font-size: 1.8rem;   
+}
+.para{
+    padding-left: 2%;
+    padding-right: 2%;
+    flex: 1;
+    /* background-color: blue; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+}
+
+.content{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    justify-content: center;
+    text-align: center;
+}
+.contentText{
+    justify-content: center;
+    text-align: center;
+    padding-right: 2%;
+    /* width: 60%; */
+    margin-top: 0.5%;
+    flex-basis: 60%;
+    /* background-color: bisque; */
+}
+.contentText h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.contentimg{
+    flex-basis:35%;
+    max-height: 9rem;
+    max-width: 25rem;
+    background-color: rgb(44, 145, 199);
+    border-radius: 2rem;
+    
+}
+.contentimg img {
+    
+    border: 2px solid ghostwhite;
+   
+
+}
+.footer{
+    flex: 1;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+
