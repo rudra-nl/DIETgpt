@@ -19,6 +19,11 @@ AI-powered interaction for quick guidance
 Static yet scalable front-end architecture
 
 The project is suitable for academic submissions, group projects, and beginner-to-intermediate web development demonstrations.
+![WhatsApp Image 2](https://github.com/user-attachments/assets/2519e48c-7f6c-4d55-9204-1cb0666f6bd6)
+
+![WhatsApp Image 2025-12-14 at 16 20 54](https://github.com/user-attachments/assets/649483d5-ddfb-419b-87b3-8cd4414b9d29)
+![WhatsApp Image 3](https://github.com/user-attachments/assets/8b898b0a-d647-4612-8be5-cb91d6e78396)
+
 
 🚀 Features Included:
 
@@ -28,6 +33,7 @@ Allows users to calculate their Body Mass Index
 Helps classify body weight into standard categories
 
 Offers quick health insight using height and weight
+![BMI](https://github.com/user-attachments/assets/ce1ae40c-7c66-4e71-92b1-9fda1cb176f7)
 
 💬 AI Health Assistant Chat:
 
