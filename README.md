@@ -69,7 +69,9 @@ Parcel – Development server and build tool
 AI Integration
 @google/genai – AI chatbot functionality
 
-📁 Project Structure
+## 📁 Project Structure
+
+```
 Āhāra/
 │
 ├── index.html
@@ -97,6 +99,8 @@ AI Integration
 │   ├── android-chrome-192x192.png
 │   ├── android-chrome-512x512.png
 │   └── apple-touch-icon.png
+```
+
 ⚙️ Installation & Setup
 Follow the steps below to run the project locally.
 
