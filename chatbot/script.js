@@ -1,6 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
 
-const GOOGLE_API_KEY = "AIzaSyB1gJyxLAj9lt44iZoA62k4x-f-mjXJ89c";
+const GOOGLE_API_KEY = "AIzaSyDi0ApdpLINgB7AjgzQz6T1zqAP5j59bKw";
 const ai = new GoogleGenAI({ apiKey: GOOGLE_API_KEY });
 
 const prompt = `
