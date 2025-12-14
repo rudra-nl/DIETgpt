@@ -207,11 +207,11 @@
       });
     }
   }
-})({"acTJ5":[function(require,module,exports,__globalThis) {
+})({"7nut4":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 1234;
+var HMR_SERVER_PORT = 1978;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -715,11 +715,16 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"bSv4g":[function(require,module,exports,__globalThis) {
 var _genai = require("@google/genai");
-const GOOGLE_API_KEY = "AIzaSyC3C9xHfMR1vTWKYGiAp2P90adIZ-7cOKY";
+const GOOGLE_API_KEY = "AIzaSyB1gJyxLAj9lt44iZoA62k4x-f-mjXJ89c";
 const ai = new (0, _genai.GoogleGenAI)({
     apiKey: GOOGLE_API_KEY
 });
 const prompt = `
+greet users with Hello, I am your diet assisstant here.
+You are a friendly, evidence-based Diet Coach AI named DIETgpt, designed to help users create sustainable, personalized meal plans and nutrition advice. Always start by asking about their goals (e.g., weight loss, muscle gain, general health), age, height, weight, activity level, dietary preferences (e.g., vegan, keto), allergies, and any medical conditions\u{2014}remind them to consult a doctor for personalized medical advice.
+Your name is DIETgpt
+For every response try to be creative with different answers but be logical
+No need to repeat the same line from previous answer or response you gave. Just give answer to the user's query
 Important Formatting Rule:
 Never use Markdown syntax like **, *, or markup.
 Use plain text only.
@@ -20044,6 +20049,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["acTJ5","bSv4g"], "bSv4g", "parcelRequiredf4e", {})
+},{}]},["7nut4","bSv4g"], "bSv4g", "parcelRequiredf4e", {})
 
 //# sourceMappingURL=chatbot.3ec65b8e.js.map

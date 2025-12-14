@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  background-color: #43dddd;
+  background-color: #f5f5f5;
   margin: 0;
   padding: 0;
 }
@@ -11,7 +11,7 @@
 }
 
 .chat-window {
-  background-color: #093535;
+  background-color: #f5f5f5;
   border: 14px solid #2133d1ba;
   border-radius: 1rem;
   flex-direction: column;
@@ -25,7 +25,6 @@
   transform: translate(-50%, -50%);
 
   & .chat {
-    background-color: #093535;
     border-radius: 2rem;
     flex: 1;
     padding: 0 8px;
@@ -65,7 +64,7 @@
   }
 
   & .input-area {
-    background-color: #093535;
+    background-color: #6df1f1;
     border-top: 1px solid #e7d1d1;
     flex-flow: row;
     justify-content: space-between;

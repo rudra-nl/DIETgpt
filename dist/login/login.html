@@ -87,7 +87,8 @@ button:hover {
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required="">
             
-            <button type="submit">Login</button>
+            <a href="/chatbot/index.html"><button type="submit">Login</button></a>
+            
         </form>
         <div id="errorMsg" class="error">Invalid username or password. Try 'user' / 'pass'.</div>
         <div class="forgot-password">
@@ -100,10 +101,13 @@ button:hover {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
     const errorMsg = document.getElementById('errorMsg');
-    if (username === 'user' && password === 'pass') setTimeout(()=>{
-        window.location.href = '/chatbot/index.html';
-    }, 500);
-    else errorMsg.style.display = 'block';
+// if (username === 'user' && password === 'pass') {
+//     setTimeout(() => {
+//         window.location.href = '/chatbot/index.html'; 
+//     }, 500);
+// } else {
+//     errorMsg.style.display = 'block';
+// }
 });
 
 </script>
